@@ -1,10 +1,10 @@
 ### Context
-I couldn't find a data set about LDS temples, so I wrote a script to scrape lds.org and save the data as a CSV. Enjoy!
+Data visualizations of LDS Temple scraped data.
 
 ### Content
-Temple name, location, dedication date(some dates include "announced", these temples haven't been completed)
+Temple name, location, dedication date(some dates include "announced" ", these temples haven't been completed and have had they time set to NaN)
 
 ### Libraries and Frameworks
 Pandas - make dataframe and clean data
-UnicodeData - normalize raw characters
-Selenium - webdriver and data acquisition
+NumPy - clean data
+MatPlotLib - graphs
